@@ -1,0 +1,4 @@
+I did not write this code. I just downloaded it from http://www.jensscheffler.de/dfhl and imported it in GitHub.
+
+It is my intention to change the code, based on this suggestion:
+"Really nice program, but a little slow on large volumes with large quantities of files (like my terabyte hard disk with 75000 files). You are using a linked list of size-based groups, while what you really need is a red-black tree (and the elements of this tree should also be red-black trees based on hashes). Not counting the file comparison part, the current effectiveness of your algorithm is O(n^2) while with R-B trees it could be O(n*log(n))."
